@@ -1,0 +1,10 @@
+# Ignorar todos los archivos binarios
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+*.war
+*.ear
+*.class
