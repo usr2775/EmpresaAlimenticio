@@ -1,7 +1,7 @@
 package net.salesianos;
 
 public class Simulador {
-    public static void main(String[] args) {
+public static void main (String[] args) throws Exception {
         Almacen almacen = new Almacen(5);
 
         Granjero paco = new Granjero("Paco", 10, almacen);
@@ -28,6 +28,5 @@ public class Simulador {
         }
 
         System.out.println("Todo los thread se han ejecutado");
-
-    }
+        }
 }
