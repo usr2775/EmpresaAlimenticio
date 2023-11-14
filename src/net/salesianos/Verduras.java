@@ -1,20 +1,30 @@
 package net.salesianos;
+
 public class Verduras {
-    private String nombre;
-    private String productor;
+    private String tipo;
+    private String granjero;
+    private long tiempoPlantacion;
+    private int tiempoCrecimiento;
 
-    public Verduras(String nombre, String productor) {
-        this.nombre = nombre;
-        this.productor = productor;
+    public Verduras(String tipo, String granjero, long tiempoPlantacion) {
+        this.tipo = tipo;
+        this.granjero = granjero;
+        this.tiempoPlantacion = tiempoPlantacion;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getTipo() {
+        return tipo;
     }
 
-    public String getProductor() {
-        return productor;
+    public String getGranjero() {
+        return granjero;
+    }
+
+    public long getTiempoPlantacion() {
+        return tiempoPlantacion;
+    }
+
+    public int getTiempoCrecimiento() {
+        return tiempoCrecimiento;
     }
 }
-
-
